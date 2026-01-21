@@ -213,6 +213,7 @@
                     <a href="#research" class="nav-link px-4 py-2 rounded-xl font-medium text-sm transition-all duration-300 text-slate-700 hover:bg-slate-100/80 hover:text-slate-900 active-research">Research</a>
                     <a href="#projects" class="nav-link px-4 py-2 rounded-xl font-medium text-sm transition-all duration-300 text-slate-700 hover:bg-slate-100/80 hover:text-slate-900 active-projects">Projects</a>
                     <a href="#team" class="nav-link px-4 py-2 rounded-xl font-medium text-sm transition-all duration-300 text-slate-700 hover:bg-slate-100/80 hover:text-slate-900 active-team">Team</a>
+                    <a href="#news" class="nav-link px-4 py-2 rounded-xl font-medium text-sm transition-all duration-300 text-slate-700 hover:bg-slate-100/80 hover:text-slate-900 active-news">News</a>
                     <a href="#contact" class="nav-link px-4 py-2 rounded-xl font-medium text-sm transition-all duration-300 text-slate-700 hover:bg-slate-100/80 hover:text-slate-900 active-contact">Contact</a>
                 </nav>
 
@@ -233,6 +234,7 @@
                 <a href="#research" class="block px-4 py-3 rounded-xl font-medium transition-all duration-300 text-slate-700 hover:bg-slate-100/80 active-mobile-research">Research</a>
                 <a href="#projects" class="block px-4 py-3 rounded-xl font-medium transition-all duration-300 text-slate-700 hover:bg-slate-100/80 active-mobile-projects">Projects</a>
                 <a href="#team" class="block px-4 py-3 rounded-xl font-medium transition-all duration-300 text-slate-700 hover:bg-slate-100/80 active-mobile-team">Team</a>
+                <a href="#news" class="block px-4 py-3 rounded-xl font-medium transition-all duration-300 text-slate-700 hover:bg-slate-100/80 active-mobile-news">News</a>
                 <a href="#contact" class="block px-4 py-3 rounded-xl font-medium transition-all duration-300 text-slate-700 hover:bg-slate-100/80 active-mobile-contact">Contact</a>
             </nav>
         </div>
@@ -618,6 +620,135 @@
                 </div>
             </div>
         </section>
+
+
+<!-- Outcome -->
+         <!-- Enhanced News Section -->
+        <section id="news" class="section glass border-y border-slate-200/50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-5xl font-extrabold text-slate-900 gradient-text tracking-tight text-glow mb-4">News</h2>
+                    <p class="text-xl text-himalayan-grey max-w-3xl mx-auto">Papers, Code, Product</p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-2 gap-8">
+                    <!-- Enhanced Team Member Cards -->
+                  
+
+<div class="bg-white p-6 rounded-2xl text-center shadow-xl card-hover border-b-4 border-[#2C5F8D]">
+    <h3 class="text-xl font-semibold text-slate-900 mb-2">Virtual Speech Therapist Agent</h3>
+    
+    <p class="text-slate-700 text-sm leading-relaxed mb-4 text-justify">
+    The paper introduces Virtual Speech Therapist (VST), an AI system that automates stuttering assessment and therapy planning. It uses deep learning to classify stuttering, followed by multi-agent LLMs to generate and refine personalized therapy plans, which are then reviewed for safety and evidence alignment. Clinicians approve the final plan. Expert evaluations confirm VST produces high-quality, evidence-based recommendations, aiming to assist clinicians and improve patient outcomes.
+    </p>
+    
+    <div class="flex flex-col gap-2 mb-2 text-left">
+        <!-- Paper Link -->
+        <div class="flex items-start">
+            <span class="text-[#DC143C] font-semibold min-w-16">Paper:</span>
+            <a href="vst.pdf" target="_blank" 
+               class="text-[#2C5F8D] hover:text-[#DC143C] transition-colors flex items-center gap-1">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
+                    <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"/>
+                </svg>
+                View Paper (PDF)
+            </a>
+        </div>
+        
+        
+        <!-- Code Link -->
+        <div class="flex items-start">
+            <span class="text-[#DC143C] font-semibold min-w-16">Code:</span>
+            <a href="https://github.com/pmarmaroli/vocametrix-platform/tree/main/python/vstagent" target="_blank" 
+               class="text-[#2C5F8D] hover:text-[#DC143C] transition-colors flex items-center gap-1">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clip-rule="evenodd"/>
+                </svg>
+                GitHub Repository
+            </a>
+        </div>
+        
+        <!-- UI Demo Link -->
+        <div class="flex items-start">
+            <span class="text-[#DC143C] font-semibold min-w-16">UI:</span>
+            <a href="https://github.com/pmarmaroli/vocametrix-platform/tree/main/python/vstagent" target="_blank" 
+               class="text-[#2C5F8D] hover:text-[#DC143C] transition-colors flex items-center gap-1">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"/>
+                </svg>
+                Live Demo
+            </a>
+        </div>
+
+<div class="flex items-start mt-2 pt-4 border-t border-slate-200">
+    <span class="text-[#DC143C] font-semibold min-w-20">Collaborators: &nbsp</span>
+    <div class="flex-1">
+        <details class="group">
+            <summary class="text-[#2C5F8D] hover:text-[#DC143C] cursor-pointer font-medium flex items-center gap-1">
+                 View Collaborators
+                <svg class="w-4 h-4 transform group-open:rotate-180 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                </svg>
+            </summary>
+            <div class="mt-3 space-y-2 text-sm text-slate-600">
+                <div><span class="text-[#DC143C]">&</span> Patrick Marmaroli (Microsoft - Vocametrix, Estonia)</div>
+                <div><span class="text-[#DC143C]">&</span> Md Sahidullah (IAI, TCG CREST, India)</div>
+                <div><span class="text-[#DC143C]">&</span> Slim Ouni (Université de Lorraine, CNRS, Inria, LORIA, France)</div>
+                <div><span class="text-[#DC143C]">&</span> Fabrice Hirsch (Université Paul-Valéry Montpellier 3)</div>
+                <div><span class="text-[#DC143C]">&</span> Gonçalo Leal (Portuguese Catholic University)</div>
+                <div><span class="text-[#DC143C]">&</span> Björn W. Schuller (TUM / Imperial College London)</div>
+            </div>
+        </details>
+    </div>
+</div>
+
+    </div>
+</div>
+
+<!-- Abstract Modal (Add this at the bottom of your page) -->
+<div id="abstract-vst" class="modal hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+    <div class="bg-white rounded-2xl max-w-2xl w-full max-h-[80vh] overflow-y-auto">
+        <div class="p-6">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-xl font-semibold text-slate-900">Abstract: Virtual Speech Therapist Agent</h3>
+                <button class="modal-close text-slate-400 hover:text-slate-700 text-2xl">&times;</button>
+            </div>
+            <div class="prose max-w-none">
+                <p class="text-slate-700 mb-3">
+                    We present SpeechTherapyAgent, an AI-powered virtual speech therapist designed to provide 
+                    personalized and supervised therapy for individuals with speech disorders. The system operates 
+                    within a clinician-in-the-loop framework, ensuring that therapy sessions are both adaptive to 
+                    patient needs and continuously monitored by healthcare professionals.
+                </p>
+                <p class="text-slate-700 mb-3">
+                    Our approach combines real-time speech analysis with machine learning algorithms to detect 
+                    articulation errors, fluency issues, and prosodic abnormalities. The system generates 
+                    personalized exercises that adapt based on patient progress, while providing clinicians with 
+                    detailed analytics and intervention capabilities.
+                </p>
+                <p class="text-slate-700">
+                    Experimental results demonstrate significant improvements in treatment adherence and speech 
+                    accuracy compared to traditional therapy methods, while maintaining high safety standards 
+                    through continuous clinician oversight.
+                </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-200">
+                <a href="vst.pdf" target="_blank" 
+                   class="inline-block bg-[#2C5F8D] text-white px-4 py-2 rounded-lg hover:bg-[#1e4468] transition-colors">
+                    Download Full Paper
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+                  
+
+                </div>
+            </div>
+        </section>
+
 
         <!-- Enhanced Team Section -->
         <section id="team" class="section glass border-y border-slate-200/50">
@@ -1013,6 +1144,7 @@ He is currently working as an Assistant Professor at Imam Mohammad Ibn Saud Isla
                         <li><a href="#research" class="text-slate-400 hover:text-white transition-all duration-300 hover:translate-x-2 block">Research</a></li>
                         <li><a href="#projects" class="text-slate-400 hover:text-white transition-all duration-300 hover:translate-x-2 block">Projects</a></li>
                         <li><a href="#team" class="text-slate-400 hover:text-white transition-all duration-300 hover:translate-x-2 block">Team</a></li>
+                        <li><a href="#news" class="text-slate-400 hover:text-white transition-all duration-300 hover:translate-x-2 block">News</a></li>
                         <li><a href="#contact" class="text-slate-400 hover:text-white transition-all duration-300 hover:translate-x-2 block">Contact</a></li>
                     </ul>
                 </div>
